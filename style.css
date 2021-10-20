@@ -1,0 +1,294 @@
+body{
+    background-image: url(images/608aa16d-b965-4128-9f70-82fd375d0e79.jpg);
+    background-size: cover;
+    margin: 0;
+    zoom: 80%;
+}
+
+#header{
+    height: 165px;
+    background-image: url(images/newvogue.jpg);
+    background-blend-mode: darken;
+}
+
+#main-header{
+    height: 165px;
+    width: 1000px;
+    margin: auto;
+}
+
+#navigation{
+    height: 35px;
+    background-image: url(images/nav.png);
+}
+
+#main-navigation{
+    height: 35px;
+    width: 1000px;
+    margin: auto;
+}
+
+#main-navigation a{
+    padding: 0 54px;
+    line-height: 35px;
+    border-left: 1px inset #ccc;
+    border-right: 1px outset #ccc;
+    float: left;
+    color: #006900;
+    text-decoration: none;
+}
+
+#main-navigation a:hover{
+    color: white;
+    background-color: rgb(87, 87, 9);
+}
+
+#headline{
+    height: 25px;
+    background-color: #cecece;
+}
+
+#main-headline{
+    height: 25px;
+    width: 1000px;
+    margin: auto;
+}
+
+#main-headline marquee{
+    line-height: 25px;
+    color: black;
+    font-size: 14px;
+}
+
+#content{
+    width: 940px;
+    padding: 30px;
+    margin: auto;
+}
+#content1{
+    width: 940px;
+    padding: 30px;
+    margin: auto;
+}
+#content h1{
+    color: rgb(87, 87, 9);
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 1px;
+}
+#content1 h1{
+    color: rgb(87, 87, 9);
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 1px;
+}
+#content p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+#content1 p{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+#slide{
+    height: 180px;
+    margin-bottom: 15px;
+}
+
+#article1{
+    height: 150px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+#article2{
+    height: 150px;
+    margin-bottom: 15px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+}
+.male-info{
+    display: inline-block;
+}
+.male-info img{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.male-info img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+.female-info{
+    display: inline-block;
+}
+
+.female-info img{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.female-info img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+.kid-info{
+    display: inline-block;
+}
+
+.kid-info img{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.kid-info img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+.gallery-info{
+    display: inline-block;
+}
+
+.gallery-info img{
+    margin: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.gallery-info img:hover{
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+#newsletter fieldset{
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+#newsletter legend{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+#newsletter td{
+    color: #fff;
+    line-height: 30px;
+}
+#newsletter input[type=text], input[type=password]{
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #060;
+}
+#newsletter input[type=submit], input[type=reset]{
+    background-color: #060;
+    box-sizing: border-box;
+    padding: 10px 30px;
+    color: #fff;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+#newsletter input[type=submit]:hover, input[type=reset]:hover{
+    background-color: #090;
+    color: #ccc;
+}
+#newsletter input[type=text]:focus, input[type=password]:focus{
+    background-color: rgb(195, 252, 184);
+}
+#newsletter textarea:focus{
+    background-color:  rgb(195, 252, 184);
+}
+#newsletter textarea{
+    padding: 10px 15px;
+    border: 1px solid #060;
+    border-radius: 12px;
+    resize: none;
+}
+#footer{
+    height: 250px;
+    background-color: rgb(124, 124, 10);
+    width: 900px;
+    margin: auto;
+}
+
+#footer-top{
+    height: 200px;
+    width: 750px;
+    margin: auto;
+}
+.footer-info{
+    width: 220px;
+    height: 250px;
+    margin: 0 15px;
+    float: left;
+}
+.footer-info h2{
+    color:black;
+    margin: 0;
+    border-bottom:  solid 2px;
+}
+.footer-info p{
+    color: black;
+    text-align: justify;
+    font-size: 15px;
+}
+.footer-info a{
+    color:black;
+    text-decoration: none;
+}
+.footer-info a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.footer-info li{
+    color: black;
+    line-height: 25px;
+    list-style-image: url(images/clock.png);
+    font-size: 15px;
+}
+.social{
+    height: 40px;
+    margin: 10px 0;
+
+}
+.social-icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right: 10px;
+}
+#footer-bottom{
+    height: 50px;
+    width: 750px;
+    margin: auto;
+}
+#footer-bottom p{
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin: 0;
+}
+#footer-bottom a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-bottom a:hover{
+    color: rgb(87, 87, 9);
+    text-decoration: underline;
+}
