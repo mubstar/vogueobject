@@ -1,14 +1,16 @@
 body{
-    background-image: url(images/608aa16d-b965-4128-9f70-82fd375d0e79.jpg);
+    background-image: url(images/bg7.jpg);
     background-size: cover;
     margin: 0;
-    zoom: 80%;
 }
 
 #header{
+    width: 850px;
     height: 165px;
+    margin: auto;
     background-image: url(images/newvogue.jpg);
     background-blend-mode: darken;
+    background-size: contain;
 }
 
 #main-header{
@@ -71,25 +73,27 @@ body{
     margin: auto;
 }
 #content h1{
-    color: rgb(87, 87, 9);
+    color: black;
     text-decoration: none;
     text-align: center;
     letter-spacing: 2px;
     margin: 1px;
+    font-family: serif;
 }
 #content1 h1{
-    color: rgb(87, 87, 9);
+    color: black;
     text-decoration: none;
     text-align: center;
     letter-spacing: 2px;
     margin: 1px;
 }
 #content p{
-    color: black;
+    color: white;
     text-align: center;
     margin: 10px;
     line-height: 25px;
     letter-spacing: 1px;
+    font-family: serif;
 }
 #content1 p{
     color: black;
@@ -107,7 +111,7 @@ body{
 #article1{
     height: 150px;
     margin-bottom: 15px;
-    border: 2px solid black;
+    border: 2px solid white;
     border-radius: 15px;
 }
 #article2{
