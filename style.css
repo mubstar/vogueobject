@@ -4,62 +4,45 @@ body{
     margin: 0;
 }
 
-#header{
-    width: 850px;
-    height: 165px;
-    margin: auto;
-    background-image: url(images/newvogue.jpg);
-    background-blend-mode: darken;
-    background-size: contain;
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #36223a;
+    min-height: 8vh;
+    align-items: center;
 }
 
-#main-header{
-    height: 165px;
-    width: 1000px;
-    margin: auto;
+.logo{
+    color: yellow;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.logo h6{
+    font-size: 10px;
 }
 
-#navigation{
-    height: 35px;
-    background-image: url(images/nav.png);
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
 }
 
-#main-navigation{
-    height: 35px;
-    width: 1000px;
-    margin: auto;
+.nav-links li{
+    list-style: none;
 }
 
-#main-navigation a{
-    padding: 0 54px;
-    line-height: 35px;
-    border-left: 1px inset #ccc;
-    border-right: 1px outset #ccc;
-    float: left;
-    color: #006900;
+.nav-links a{
     text-decoration: none;
-}
-
-#main-navigation a:hover{
     color: white;
-    background-color: rgb(87, 87, 9);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
 }
 
-#headline{
-    height: 25px;
-    background-color: #cecece;
-}
-
-#main-headline{
-    height: 25px;
-    width: 1000px;
-    margin: auto;
-}
-
-#main-headline marquee{
-    line-height: 25px;
-    color: black;
-    font-size: 14px;
+.nav-links a:hover{
+    text-decoration: underline;
+    color: purple;
 }
 
 #content{
